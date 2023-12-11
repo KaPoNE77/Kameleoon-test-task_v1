@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS clients
+(
+id BIGINT PRIMARY KEY,
+userName VARCHAR(200) NOT NULL,
+email VARCHAR(254) NOT NULL,
+pass VARCHAR(50)  NOT NULL,
+creationDate varchar(20) NOT NULL);
+
